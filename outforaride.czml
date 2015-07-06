@@ -4,12 +4,34 @@
     "version":"1.0"
   },
   {
+    "id": "London",
+    "name": "London",
+    "description": "<!--HTML-->\r\n<p>London, where I live.\r\nYou can read my first post called <a href='http://www.outforaride.com/the-desert-island/' target='_blank'>The Desert Island</a></p>",
+    "label": {
+      "fillColor": { "rgba": [246,109,87,200] },
+      "font": "11pt Arial",
+      "horizontalOrigin": "CENTER",
+      "show": true,
+      "style": "FILL_AND_OUTLINE",
+      "text": "London",
+      "verticalOrigin": "TOP"
+    },
+    "billboard": {
+      "horizontalOrigin":"CENTER",
+      "image":"pin.png",
+      "scale":1,
+      "show":true,
+      "verticalOrigin":"BOTTOM"  
+    },
+    "position": { "cartographicDegrees": [-0.182190, 51.154746, 0.0] }
+  },
+  {
     "id": "Calgary",
     "name": "Calgary, Alberta",
-    "description": "<!--HTML-->\r\n<p>Pennsylvania, officially the Commonwealth of Pennsylvania, is a U.S. state that is located in the Northeastern and Mid-Atlantic regions of the United States, and the Great Lakes region. The state borders Delaware to the southeast, Maryland to the south, West Virginia to the southwest, Ohio to the west, Lake Erie and Ontario, Canada to the northwest, New York to the north and New Jersey to the east. The Appalachian Mountains run through the middle of the state.\r\nPennsylvania is the 33rd most extensive, the 6th most populous, and the 9th most densely populated of the 50 United States. The state's four most populous cities are Philadelphia, Pittsburgh, Allentown, and Erie. The state capital is Harrisburg. Pennsylvania has 51 miles (82 km) of coastline along Lake Erie and 57 miles (92 km) of shoreline along the Delaware Estuary. The state is one of the 13 original founding states of the U.S.</p>",
+    "description": "<!--HTML-->\r\n<p>Calgary</p>",
     "label": {
-      "fillColor": { "rgba": [50,50,50,200] },
-      "font": "11pt Lucida",
+      "fillColor": { "rgba": [246,109,87,200] },
+      "font": "11pt Arial",
       "horizontalOrigin": "CENTER",
       "show": true,
       "style": "FILL_AND_OUTLINE",
@@ -19,7 +41,7 @@
     "billboard": {
       "horizontalOrigin":"CENTER",
       "image":"pin.png",
-      "scale":0.5,
+      "scale":1,
       "show":true,
       "verticalOrigin":"BOTTOM"  
     },

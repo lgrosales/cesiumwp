@@ -25,6 +25,7 @@
         geocoder : false,
         timeline : false,
         navigationInstructionsInitiallyVisible: true,
+        fullscreenElement : document.getElementById('cesiumContainer'),
         imageryProvider : new Cesium.BingMapsImageryProvider({
             url : '//dev.virtualearth.net',
             key : 'AiL8RM2VH01_zKVjyov3I1pnjFqsyciHcCUavxknsCHOky3r7_q-uLQByl1Y_laK',
@@ -33,11 +34,11 @@
     });
     
     viewer.dataSources.add(Cesium.CzmlDataSource.load('outforaride.czml')).then(function(dataSource){
-      viewer.selectedEntity = dataSource.entities.getById('Calgary');
+      //viewer.selectedEntity = dataSource.entities.getById('Calgary');
       //viewer.zoomTo(dataSource.entities);
+      viewer.selectedEntity = dataSource.entities.getById('Calgary');
     });
     //viewer.dataSources.add(Cesium.KmlDataSource.load('outforaride.kml'));
-    
   </script>
 </body>
 </html>
