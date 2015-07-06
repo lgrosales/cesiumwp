@@ -7,44 +7,36 @@
     "id": "London",
     "name": "London",
     "description": "<!--HTML-->\r\n<p>London, where I live.\r\nYou can read my first post called <a href='http://www.outforaride.com/the-desert-island/' target='_blank'>The Desert Island</a></p>",
-    "label": {
-      "fillColor": { "rgba": [246,109,87,200] },
-      "font": "11pt Arial",
-      "horizontalOrigin": "CENTER",
-      "show": true,
-      "style": "FILL_AND_OUTLINE",
-      "text": "London",
-      "verticalOrigin": "TOP"
-    },
-    "billboard": {
-      "horizontalOrigin":"CENTER",
-      "image":"pin.png",
-      "scale":1,
-      "show":true,
-      "verticalOrigin":"BOTTOM"  
-    },
+    "label": {"fillColor": { "rgba": [246,109,87,200] },"font": "11pt Arial","horizontalOrigin": "CENTER","show": true,"style": "FILL_AND_OUTLINE","verticalOrigin": "TOP",
+      "text": "London" },
+    "billboard": { "horizontalOrigin":"CENTER","image":"pin.png","scale":1,"show":true,"verticalOrigin":"BOTTOM" },
     "position": { "cartographicDegrees": [-0.182190, 51.154746, 0.0] }
   },
   {
     "id": "Calgary",
     "name": "Calgary, Alberta",
-    "description": "<!--HTML-->\r\n<p>Calgary</p>",
-    "label": {
-      "fillColor": { "rgba": [246,109,87,200] },
-      "font": "11pt Arial",
-      "horizontalOrigin": "CENTER",
-      "show": true,
-      "style": "FILL_AND_OUTLINE",
-      "text": "Calgary",
-      "verticalOrigin": "TOP"
-    },
-    "billboard": {
-      "horizontalOrigin":"CENTER",
-      "image":"pin.png",
-      "scale":1,
-      "show":true,
-      "verticalOrigin":"BOTTOM"  
-    },
+    "description": "<!--HTML-->\r\n<p>My next destination</p>",
+    "label": {"fillColor": { "rgba": [246,109,87,200] },"font": "11pt Arial","horizontalOrigin": "CENTER","show": true,"style": "FILL_AND_OUTLINE","verticalOrigin": "TOP",
+      "text": "Calgary"},
+    "billboard": { "horizontalOrigin":"CENTER","image":"pin.png","scale":1,"show":true,"verticalOrigin":"BOTTOM" },
     "position": { "cartographicDegrees": [-114.087888, 51.052844, 0.0] }
+  },
+  {
+    "id": "Deadhorse",
+    "name": "Deadhorse, Prudhoe Bay, Alaska, US",
+    "description": "<!--HTML-->\r\n<p>The northern end of the Pan-American Highway</p>",
+    "label": {"fillColor": { "rgba": [246,109,87,200] },"font": "11pt Arial","horizontalOrigin": "CENTER","show": true,"style": "FILL_AND_OUTLINE","verticalOrigin": "TOP",
+      "text": "Prudhoe Bay"},
+    "billboard": { "horizontalOrigin":"CENTER","image":"pin.png","scale":1,"show":true,"verticalOrigin":"BOTTOM" },
+    "position": { "cartographicDegrees": [-148.459333, 70.206959, 0.0] } 
+  },
+  {
+    "id": "Lapataia",
+    "name": "Bahia Lapataia, Ushuaia, Argentina",
+    "description": "<!--HTML-->\r\n<p>The end of the road</p>",
+    "label": {"fillColor": { "rgba": [246,109,87,200] },"font": "11pt Arial","horizontalOrigin": "CENTER","show": true,"style": "FILL_AND_OUTLINE","verticalOrigin": "TOP",
+      "text": "Beagle Channel"},
+    "billboard": { "horizontalOrigin":"CENTER","image":"pin.png","scale":1,"show":true,"verticalOrigin":"BOTTOM" },
+    "position": { "cartographicDegrees": [-68.582935, -54.785279, 0.0] } 
   }
 ]
