@@ -20,7 +20,9 @@
     });
     
     viewer.dataSources.add(Cesium.CzmlDataSource.load('/wp-content/themes/dw-timeline/outforaride.czml')).then(function(dataSource){
-      viewer.selectedEntity = dataSource.entities.getById('Calgary');
+      var currentPos = dataSource.entities.getById('Calgary');
+      viewer.selectedEntity = currentPos;
+      viewer.flyTo(currentPos, { duration: 3, offset: {heading :0, pitch: -1, range:2000000} }); 
     });
   </script>
 

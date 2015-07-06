@@ -34,9 +34,9 @@
     });
     
     viewer.dataSources.add(Cesium.CzmlDataSource.load('outforaride.czml')).then(function(dataSource){
-      //viewer.selectedEntity = dataSource.entities.getById('Calgary');
-      //viewer.zoomTo(dataSource.entities);
-      viewer.selectedEntity = dataSource.entities.getById('Calgary');
+      var currentPos = dataSource.entities.getById('Calgary');
+      viewer.selectedEntity = currentPos;
+      viewer.flyTo(currentPos, { duration: 3, offset: {heading :0, pitch: -1, range:2000000} }); 
     });
     //viewer.dataSources.add(Cesium.KmlDataSource.load('outforaride.kml'));
   </script>
